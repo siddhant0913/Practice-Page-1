@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #83898f;
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+}
+
+#part2{
+    height: 100%;
+    width: 67%;
+    background-image: url(photo2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(164, 161, 161, 0.476) ;
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+}
+
+#text-div {
+    position: absolute;
+    width: 400px;
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1 {
+    font-size: 80px;
+    font-family: monument;
+    font-weight: 700;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#small-img{
+    height: 300px;
+    width: 430px;
+    background-image: url(photo3.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(0, -50%);
+}
+
+#overlay-in {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(164, 161, 161, 0.328) ;
+}
+
+#vertical-text {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -47%;
+    transform-origin: 0% 0%;
+    top: -3%;
+}
+
+#vertical-text>h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: transparent;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    left: 7%;
+    top: 5%;
+}
+
+#nav img{
+    height: 60px;
+    background-color: #000000;
+    mix-blend-mode:multiply;
+}
+
+#nav h5 {
+    font-size: 20px;
+    color: #fff;
+}
